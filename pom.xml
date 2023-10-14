@@ -34,8 +34,14 @@
 			<artifactId>javax.servlet.jsp-api</artifactId>
 			<version>2.3.1</version>
 		</dependency>
+		
 	</dependencies>
 	<build>
 		<finalName>SpringFormApp</finalName>
+		
 	</build>
+	<properties>
+   <maven.compiler.source>1.9</maven.compiler.source>
+   <maven.compiler.target>1.9</maven.compiler.target>
+ </properties>
 </project>
